@@ -84,6 +84,11 @@ img {
     font-size: 18px;
     color: #FFFFFF;
     margin-right: 30px;
+    transition: all 0.2s;
+}
+
+.header__button-change:hover {
+    filter: saturate(170%);
 }
 
 .men .header__button-change {
@@ -96,6 +101,10 @@ img {
 
 .header__button-change:last-child {
     margin-right: 0;
+}
+
+.header__button-change:active {
+    transform: scale(0.95);
 }
 
 .header__button-gender {
@@ -129,6 +138,18 @@ img {
 
 .women .header__button-gender_women {
     border-color: #C300C7;
+}
+
+.women .header__button-gender_men:hover {
+    outline: 3px solid #1178B2;
+}
+
+.men .header__button-gender_women:hover {
+    outline: 3px solid #C300C7;
+}
+
+.header__button-gender:active {
+    background-size: 40px;
 }
 
 .card {
@@ -202,6 +223,7 @@ img {
     display: inline-block;
     margin-right: 16px;
     border-radius: 100%;
+    transition: all 0.1s;
 }
 
 .footer__button-social:last-child {
@@ -232,6 +254,10 @@ img {
 
 .footer__button-social_stumbleupon {
     background-image: url('../image/stumbleupon.svg');
+}
+
+.footer__button-social:focus {
+    transform: scale(1.2);
 }
 
 @media (max-width: 880px) {
