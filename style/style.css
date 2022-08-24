@@ -223,7 +223,7 @@ img {
     display: inline-block;
     margin-right: 16px;
     border-radius: 100%;
-    transition: all 0.1s;
+    transition: all 0.3s;
 }
 
 .footer__button-social:last-child {
@@ -237,7 +237,7 @@ img {
 }
 
 .women .footer__button-social {
-    filter: invert(22%) sepia(93%) saturate(7488%) hue-rotate(294deg) brightness(90%) contrast(117%);
+    filter: invert(33%) sepia(93%) saturate(7488%) hue-rotate(294deg) brightness(90%) contrast(117%);
 }
 
 .footer__button-social_vk {
@@ -254,6 +254,10 @@ img {
 
 .footer__button-social_stumbleupon {
     background-image: url('../image/stumbleupon.svg');
+}
+
+.footer__button-social:hover {
+    box-shadow: 5px -5px rgba(0, 128, 128, 0.2);
 }
 
 .footer__button-social:focus {
